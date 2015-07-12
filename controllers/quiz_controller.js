@@ -13,3 +13,8 @@ res.render('quizes/answer',{respuesta: 'Correcto'});
 res.render('quizes/answer',{respuesta: 'Incorrecto'});
 }
 };
+
+// GET author
+exports.autor = function(req,res) {
+res.render('author/autor', {});
+};
